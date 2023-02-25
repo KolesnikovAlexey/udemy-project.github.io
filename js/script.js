@@ -42,3 +42,35 @@ personalMovieDB.movies[a] = b;
 personalMovieDB.movies[c] = d;
 
 console.log(personalMovieDB);
+
+if (5 == 4){
+    console.log("Super!")
+} else {
+    console.log("Error!")
+}
+
+let number = 50;
+if (number < 49) {
+    console.log("Error!");
+} else if (number > 100){
+    console.log("Это много");
+} else  {
+    console.log("Ok!")
+}
+
+(number === "50") ? console.log("Ok!") : console.log("Error!");
+
+switch (number) {
+    case 49:
+        console.log("Не верно");
+        break;
+    case 100:
+        console.log("Не верно");
+        break;
+    case 50 :
+        console.log("Верно");
+        break;
+    default:
+        console.log("Соррян, не в этот раз");
+        break;
+}
