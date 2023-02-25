@@ -1,27 +1,27 @@
 "use strict";
 
-// alert('Hello');
-//
-// const result = confirm("Are you here?");
-//
-// console.log(result);
+alert('Hello');
 
-// const answer = prompt("How old are you?", "18 is old");
-// console.log(typeof (answer));
+const result = confirm("Are you here?");
 
-// const answer = [];
-//
-// answer[0] = prompt("Как тебя завут?", "Ivan");
-// answer[1] = prompt("Как твоя фамилия?", " Ivanov");
-// answer[2] = prompt("Сколько тебе лет?", " 00");
-// document.write(answer);
-// console.log(answer);
+console.log(result);
 
-// const category = 'toys';
-// console.log(`https://test.com/${category}/5`)
+const answer = prompt("How old are you?", "18 is old");
+console.log(typeof (answer));
 
-// let user = "Alex";
-// alert(`Hello my friend ${user}`);
+const answer = [];
+
+answer[0] = prompt("Как тебя завут?", "Ivan");
+answer[1] = prompt("Как твоя фамилия?", " Ivanov");
+answer[2] = prompt("Сколько тебе лет?", " 00");
+document.write(answer);
+console.log(answer);
+
+const category = 'toys';
+console.log(`https://test.com/${category}/5`)
+
+let user = "Alex";
+alert(`Hello my friend ${user}`);
 
 let numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?", "");
 
