@@ -20,5 +20,25 @@
 // const category = 'toys';
 // console.log(`https://test.com/${category}/5`)
 
-let user = "Alex";
-alert(`Hello my friend ${user}`);
+// let user = "Alex";
+// alert(`Hello my friend ${user}`);
+
+let numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?", "");
+
+let personalMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    genres: [],
+    private: false
+};
+
+const a = prompt("Один из последних просмотренный фильмов?", ""),
+      b = prompt("На сколько оцените его?", ""),
+      c = prompt("Один из последних просмотренный фильмов?", ""),
+      d = prompt("На сколько оцените его?", "");
+
+personalMovieDB.movies[a] = b;
+personalMovieDB.movies[c] = d;
+
+console.log(personalMovieDB);
