@@ -1,0 +1,75 @@
+body {
+    background-color: #e3e060;
+    user-select: none;
+}
+
+/* Center the container and set its properties */
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    max-width: 365px;
+    border: 1px solid #000;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 4px;
+    background-color: #1c1911;
+    padding: 4px;
+    border-radius: 5px;
+    font-family: "Bookman Old Style";
+}
+
+/* Set properties for each item */
+.item {
+    background-color: aquamarine;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Set properties for the input form */
+form {
+    max-width: 100%;
+}
+
+/* Set properties for the input field */
+input {
+    width: 300px;
+    height: 60px;
+    border: none;
+    font-size: 30px;
+    outline: none;
+    text-align: right;
+}
+
+/* Set properties for the input field within the grid */
+.input {
+    grid-column: 1/-1;
+    padding: 0;
+}
+
+.clean {
+    grid-column: 1/3;
+    background-color: #4444cc;
+}
+
+.backspace {
+    grid-column: 3/-1;
+    background-color: #178319;
+}
+
+.equal {
+    grid-column: 4;
+    grid-row: 6/8;
+    background-color: #946f52;
+}
+
+.zero {
+    grid-column: 3/1;
+}
